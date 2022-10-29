@@ -11,12 +11,12 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Petrona", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #232b22;
+  background: #BDCAB9;
 }
 
 #page {
@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Petrona", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: #7D9D85;
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 400px;
   float: left;
 }
 #fh5co-counter .display-t,
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: #7D9D85;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
-    margin-bottom: 10px;
+    margin: 10px;
   }
 }
 #fh5co-counter .event-wrap h3,
@@ -428,11 +428,14 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+#fh5co-event h2 {
+  color: white;
+}
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
@@ -836,15 +839,15 @@ form label {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #354031;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 100px;
+  font-size: 140px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "Alex Brush", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -940,9 +943,9 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: #739d82;
+  width: 130px;
+  height: 130px;
+  background: #DDECE1;
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -967,14 +970,14 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 130px;
+  width: 130px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: white;
+  color: black;
   /* amounts and words */
 }
 
@@ -984,7 +987,7 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-word {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   text-transform: uppercase;
   font-size: 12px;
   /* words */
@@ -1647,7 +1650,7 @@ form label {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Petrona", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
@@ -1841,3 +1844,36 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.cta-button
+{
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 30%;
+
+  background: #CED7CB;
+  border: 0.6px solid #344D3A;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.cta-button h2
+{
+  padding: 8px 12px;
+  line-height: 2;
+}
