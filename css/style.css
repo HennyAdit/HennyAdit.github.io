@@ -322,7 +322,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
   display: table;
   width: 100%;
 }
@@ -1874,6 +1873,7 @@ form label {
 
 .cta-button h2
 {
+  margin: auto;
   padding: 8px 12px;
   line-height: 2;
 }
