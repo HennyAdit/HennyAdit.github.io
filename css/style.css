@@ -1798,6 +1798,11 @@ form label {
   flex-grow: 0;
 }
 
+.cta-button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+}
+
 .cta-button .rsvp
 {
   padding: 0.2em 2em;
