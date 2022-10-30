@@ -367,9 +367,6 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-#fh5co-event h2 {
-  color: white;
-}
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
@@ -1836,6 +1833,10 @@ form label {
   color: black;
 }
 
+h1 {
+  font-family: "Alex Brush", Arial, serif;
+}
+
 h2
 {
   font-weight: 600;
@@ -1852,4 +1853,23 @@ h4
 {
   font-weight: 400;
   font-size: 2em;
+}
+
+.couple-bg
+{
+  width: 49.5%;
+  padding-top: 8.3vw;
+  padding-bottom: 8.3vw;
+  background: #877F72;
+}
+
+.bg-dark ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
 }
