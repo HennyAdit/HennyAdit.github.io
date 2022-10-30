@@ -1798,6 +1798,11 @@ form label {
   flex-grow: 0;
 }
 
+.cta-button .rsvp
+{
+  padding: 1.25em 2em;
+}
+
 .rsvp .overlay
 {
   margin: 5.5% 6.6%;
