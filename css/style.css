@@ -1879,3 +1879,12 @@ ul > li {
   display: inline-block;
   /* You can also add some margins here to make it look prettier */
 }
+
+.accounts
+{
+  width: 34vw;
+  height: 0.6px;
+  margin: 8, auto;
+
+  border: 0.6px solid #7D9D85;
+}
