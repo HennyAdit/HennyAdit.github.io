@@ -1800,7 +1800,7 @@ form label {
 
 .cta-button .rsvp
 {
-  padding: 0.5em 2em;
+  padding: 0.2em 2em;
 }
 
 .rsvp .overlay
@@ -1821,6 +1821,14 @@ form label {
 .bg-light h4
 {
   color: black;
+}
+
+.bg-semi-light h1,
+.bg-semi-light h2,
+.bg-semi-light h3,
+.bg-semi-light h4
+{
+  color: #434343;
 }
 
 .bg-dark h1,
@@ -1891,5 +1899,6 @@ ul > li {
 
 .secondary-h2
 {
-  font-weight: 300;
+  font-weight: 200;
+  color: #434343;
 }
