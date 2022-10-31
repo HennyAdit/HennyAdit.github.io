@@ -47,13 +47,12 @@ body {
 }
 
 a {
-  color: #bac3bd;
+  color: black;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #bac3bd;
   outline: none;
   text-decoration: none;
 }
@@ -63,7 +62,6 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #D9E0D7;
   font-family: "Petrona", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
