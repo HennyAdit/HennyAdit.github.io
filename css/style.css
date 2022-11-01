@@ -1877,7 +1877,7 @@ h4
   width: 49.5%;
   padding-top: 8.3vw;
   padding-bottom: 8.3vw;
-  background: #877F72;
+  background: #9D947D;
 }
 
 .bg-dark ul
@@ -1904,4 +1904,10 @@ ul > li {
 {
   font-weight: 200;
   color: #434343;
+}
+
+ul
+{
+  padding: 0;
+  margin: 0;
 }
